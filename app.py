@@ -115,11 +115,8 @@ def apply():
          msg = 'You have successfully applied for job !'
          session['loggedin'] = True
          TEXT = "Hello sandeep,a new appliaction for job position" +jobs+"is requested"
-         
-
-       
-         
-         
+        
+             
          
      elif request.method == 'POST':
          msg = 'Please fill out the form !'
